@@ -1,0 +1,72 @@
+:root {
+	--primary-dark: #08304a;
+	--primary-light: #ddcff2;
+	--purple-dark: #846ca0;
+	--purple-light: #909bbb;
+	--nav-height: 50px;
+}
+
+::-webkit-scrollbar {
+	background-color: var(--primary-dark);
+	width: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--purple-light);
+}
+
+* {
+	transition: background-color 0.4s ease, color 0.6s ease;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	transition: all 0.3s ease;
+}
+
+.spacer {
+	flex-grow: 1;
+}
+
+.lightTheme {
+	--background: var(--primary-light);
+	--textColor: #000;
+	--homeOverlayColor: rgba(255, 255, 255, 0.15);
+
+	--navBg: var(--primary-light);
+	--navBtnText: var(--primary-dark);
+	--navColor2: var(--primary-dark);
+	--specialBtn: var(--primary-dark);
+	--specialBtnText: #fff;
+}
+
+.darkTheme {
+	--background: var(--primary-dark);
+	--textColor: #fff;
+	--homeOverlayColor: rgba(0, 0, 0, 0.5);
+
+	--navBg: var(--primary-dark);
+	--navBtnText: var(--purple-light);
+	--navColor2: var(--primary-light);
+	--specialBtn: var(--primary-light);
+	--specialBtnText: #000;
+}
+
+#navbar {
+	z-index: 500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: var(--nav-height);
+	background-color: var(--navBg);
+	padding: 0 7rem;
+}
+
+#home_wrapper2 {
+	min-height: 100vh;
+	background-color: var(--background);
+}
