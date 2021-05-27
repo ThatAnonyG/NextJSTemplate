@@ -1,1 +1,3 @@
-# The Merakism Project
+# NextJS Template
+
+_Coming soon_

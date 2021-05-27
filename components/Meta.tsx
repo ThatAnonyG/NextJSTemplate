@@ -1,24 +1,28 @@
 import Head from "next/head";
 
+/**************** NOTE *********************
+ * Find and replace the word TO_REPLACE with your own values
+ *******************************************/
+
 function Meta(): JSX.Element {
 	return (
 		<Head>
-			<meta name="title" content="The Merakism Project" />
-			<meta name="description" content="" />
-			<link rel="icon" type="image/png" href="" />
-			<meta name="theme-color" content="#7986ad" />
+			<meta name="title" content="TO_REPLACE" />
+			<meta name="description" content="TO_REPLACE" />
+			<link rel="icon" type="image/png" href="TO_REPLACE" />
+			<meta name="theme-color" content="TO_REPLACE" />
 
 			{/* Open Graph */}
 			<meta property="og:type" content="website" />
-			<meta property="og:url" content="https://themerakismproject.com/" />
-			<meta property="og:title" content="The Merakism Project" />
-			<meta property="og:description" content="" />
-			<meta property="og:image" content="https://imgur.com/C1u2Fdl.png" />
+			<meta property="og:url" content="TO_REPLACE" />
+			<meta property="og:title" content="TO_REPLACE" />
+			<meta property="og:description" content="TO_REPLACE" />
+			<meta property="og:image" content="TO_REPLACE" />
 
 			{/* Imports */}
 			<link rel="preconnect" href="https://fonts.gstatic.com" />
 			<link
-				href="https://fonts.googleapis.com/css2?family=Roboto&family=Noto+Sans+JP&family=Shadows+Into+Light&display=swap"
+				href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
 				rel="stylesheet"
 			/>
 			<link
@@ -30,5 +34,3 @@ function Meta(): JSX.Element {
 }
 
 export default Meta;
-
-// #08304a #ddcff2 #846ca0 #7986ad

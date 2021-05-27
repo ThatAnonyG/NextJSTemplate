@@ -1,9 +1,19 @@
 {
-	"name": "merakism",
+	"name": "next-app",
 	"version": "1.0.0",
-	"description": "Merakism project website frontend source",
+	"description": "NextJS app template",
 	"private": true,
+	"license": "Apache-2.0",
 	"main": "pages/_app.tsx",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ThatAnonyG/NextJSTemplate.git"
+	},
+	"author": "ThatAnonyG",
+	"bugs": {
+		"url": "https://github.com/ThatAnonyG/NextJSTemplate/issues"
+	},
+	"homepage": "https://github.com/ThatAnonyG/NextJSTemplate#readme",
 	"scripts": {
 		"start": "next start",
 		"dev": "next dev",
